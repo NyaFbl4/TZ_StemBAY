@@ -41,7 +41,7 @@ namespace TZ_StemBAI
             var figureData = _figuresPool[0];
             _figuresPool.RemoveAt(0);
 
-            figureGameObject.GetComponent<FigureController>().Initialize(figureData);
+            figureGameObject.GetComponent<FigureController>().Init(figureData);
         }
 
         private void GenerateFiguresPool(int countFigures)

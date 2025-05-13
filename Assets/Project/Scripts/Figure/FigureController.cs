@@ -15,7 +15,7 @@ namespace TZ_StemBAI
 
         public FigureData FigureData => _figureData;
         
-        public void Initialize(FigureData data)
+        public void Init(FigureData data)
         {
             _figureData = data;
             
